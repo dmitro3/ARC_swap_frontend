@@ -1,0 +1,116 @@
+@media (min-width: 1600px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl {
+    max-width: 1920px;
+  }
+  .content {
+    width: calc(85vw) !important;
+  }
+  .title-content {
+    display: flex;
+    justify-content: flex-start !important;
+    width: calc(80vw) !important;
+    padding: 0px !important;
+  }
+  .titlepage {
+    width: calc(85vw) !important;
+  }
+}
+.titlepage {
+  width: 100%;
+}
+.container {
+  padding: 0 !important;
+  margin: 0 !important;
+  width: 1920px !important;
+}
+
+.title-content {
+  padding: 0.8rem 1rem;
+  display: flex;
+}
+
+.title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 42px;
+  color: #ffffff;
+}
+
+.sub-title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 10px;
+  color: #ffffff;
+}
+
+.separatorTitle {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 42px;
+  color: var(--brand-success);
+}
+
+.content {
+  justify-content: space-between;
+  background-color: transparent !important;
+}
+
+.background-volume {
+  position: absolute !important;
+  z-index: 1 !important;
+  transition: all 0.3s ease-in-out;
+  padding-top: 15px !important;
+}
+
+.image {
+  text-align: center;
+}
+
+.middle-column-content {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  margin-bottom: 20px !important;
+
+  .trading-view-content {
+    width: 100%;
+    height: 500px !important;
+  }
+
+  .compare-exchanges {
+    width: 100% !important;
+  }
+}
+
+.middle-column {
+  display: flex !important;
+  flex-direction: column !important;
+
+  .ant-col {
+    padding: 0.8rem 0.5rem !important;
+  }
+}
+
+.depo__tabs_wrapper {
+  .ant-tabs-tab {
+    background-color: transparent !important;
+    border: none !important;
+    color: white !important;
+    font-size: 15px !important;
+    font-weight: bold !important;
+  }
+
+  .ant-tabs-tab-btn {
+    border: none !important;
+  }
+
+  .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+    color: #007aff !important;
+  }
+}

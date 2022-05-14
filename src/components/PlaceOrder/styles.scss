@@ -1,0 +1,244 @@
+.depo__place-order-btn {
+  border-radius: 20px !important;
+  padding: 3px 20px !important;
+  height: auto !important;
+  border: none !important;
+  font-size: 1.1em !important;
+}
+
+.cex-btn {
+  display: flex;
+  padding: 4px 8px;
+  background: #121212;
+  max-width: 120px;
+  border-radius: 8px;
+  cursor: pointer;
+
+  img {
+    margin-right: 8px;
+  }
+}
+
+.place-order {
+  padding: 15px 18px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+
+  .ant-form {
+    color: #fff !important;
+
+    .ant-form-item {
+      margin-bottom: 0 !important;
+    }
+  }
+
+  .title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    button {
+      background: transparent !important;
+      img {
+        width: 20px;
+      }
+    }
+  }
+
+  .selector {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+    .ant-row {
+      padding: 0px !important;
+    }
+
+    .exchange {
+      font-weight: normal;
+      font-size: 12px;
+      line-height: 12px;
+      margin-bottom: 0px;
+      padding-right: 20px;
+    }
+
+    .select {
+      width: 160px;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 12px !important;
+      margin-left: 30px !important;
+    }
+
+    .selectOptions {
+      color: #fff !important;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 12px !important;
+
+      :hover {
+        color: var(--brand-success) !important;
+      }
+    }
+  }
+
+  .order {
+    display: flex;
+    justify-content: space-between;
+
+    .order-type {
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 15px;
+    }
+
+    .available {
+      font-weight: normal;
+      font-size: 9px;
+      color: var(--brand-secondary) !important;
+      background-color: transparent !important;
+      //margin-right: 2px;
+    }
+  }
+
+  .input-col {
+    padding: 0.2rem 0.9rem;
+  }
+
+  .ant-form-item-has-error
+    :not(.ant-input-disabled):not(.ant-input-borderless).ant-input,
+  .ant-form-item-has-error
+    :not(.ant-input-affix-wrapper-disabled):not(.ant-input-affix-wrapper-borderless).ant-input-affix-wrapper,
+  .ant-form-item-has-error
+    :not(.ant-input-disabled):not(.ant-input-borderless).ant-input:hover,
+  .ant-form-item-has-error
+    :not(.ant-input-affix-wrapper-disabled):not(.ant-input-affix-wrapper-borderless).ant-input-affix-wrapper:hover {
+    background-color: transparent;
+  }
+
+  .ant-form-item-explain,
+  .ant-form-item-extra {
+    font-size: 10px;
+    min-height: 0;
+  }
+
+  .ant-input {
+    background-color: transparent;
+    color: #fff !important;
+  }
+
+  .ant-input-affix-wrapper > input.ant-input {
+    margin-left: 5px;
+  }
+
+  .input {
+    border-radius: 10px !important;
+    background-color: var(--brand-dark) !important;
+    border: none !important;
+    color: #fff !important;
+
+    .ant-form-item-has-error
+      :not(.ant-input-disabled):not(.ant-input-borderless).ant-input,
+    .ant-form-item-has-error
+      :not(.ant-input-affix-wrapper-disabled):not(.ant-input-affix-wrapper-borderless).ant-input-affix-wrapper,
+    .ant-form-item-has-error
+      :not(.ant-input-disabled):not(.ant-input-borderless).ant-input:hover,
+    .ant-form-item-has-error
+      :not(.ant-input-affix-wrapper-disabled):not(.ant-input-affix-wrapper-borderless).ant-input-affix-wrapper:hover {
+      background-color: none !important;
+    }
+
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+    }
+
+    span {
+      color: var(--brand-secondary);
+      font-weight: normal;
+      font-size: 12px;
+      line-height: 12px;
+    }
+  }
+
+  .col-size {
+    padding: 0.3rem 1rem;
+
+    p {
+      color: var(--brand-secondary);
+      font-weight: normal;
+      font-size: 10px;
+      line-height: 10px;
+    }
+  }
+
+  .total {
+    display: flex;
+    justify-content: space-between;
+
+    .ant-col {
+      padding: 0.4rem 0.2rem;
+    }
+
+    p {
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 16px;
+      //margin-left: 10px !important;
+      margin: 0 !important;
+    }
+  }
+
+  .exchange-trading {
+    display: flex;
+    justify-content: space-between;
+
+    .ant-col {
+      padding: 0rem 0.2rem;
+    }
+
+    p {
+      font-weight: normal;
+      font-size: 10px;
+      line-height: 10px;
+      color: var(--brand-secondary);
+    }
+  }
+
+  .button {
+    padding: 0.5rem 0.43rem;
+
+    .color {
+      &--Sell {
+        background-color: var(--brand-danger) !important;
+      }
+    }
+  }
+
+  .ant-radio-button-wrapper:not(.bg-danger):not(.bg-success) {
+    background-color: rgba(255, 255, 255, 0.1) !important;
+    color: white !important;
+    &::before {
+      background-color: transparent !important;
+    }
+  }
+
+  .button-radio-group {
+    margin: 0px 4px 4px !important;
+    border: none !important;
+    border-radius: 10px !important;
+
+    &::before {
+      width: 0px !important;
+      display: none;
+    }
+  }
+
+  .ant-radio-button-checked {
+    background-color: black !important;
+    border-radius: 10px !important;
+  }
+}

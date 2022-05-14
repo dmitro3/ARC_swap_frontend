@@ -1,0 +1,58 @@
+.depo__input {
+    position: relative;
+    input {
+        border: none !important;
+        border-radius: 5px;
+        background-color: transparent !important;
+        &:focus-visible {
+            outline: none !important;
+        }
+    }
+    &.input-dark {
+        background-color: var(--brand-dark);
+        padding: 4px 10px;
+        color: var(--brand-light);
+    }
+    &.input-add {
+        input {
+            margin-left: 40px;
+        }
+        &::before {
+            color: var(--secondary) !important;
+            font-weight: normal;
+            content: "Add";
+            position: absolute;
+            left: 10px;
+        }
+    }
+    &.input-remove {
+        input {
+            margin-left: 65px;
+        }
+        &::before {
+            color: var(--secondary) !important;
+            font-weight: normal;
+            content: "Remove";
+            position: absolute;
+            left: 10px;
+        }
+    }
+    &:focus-visible {
+        outline: none !important;
+    }
+}
+
+.depo__text-input {
+    background: transparent;
+    color: white;
+    border: none;
+    width: 100%;
+    -moz-appearance: textfield !important;
+    &.input-lg {
+        font-size: 2em;
+        height: 50px;
+        &:focus-visible {
+            outline: none !important;
+        }
+    }
+}

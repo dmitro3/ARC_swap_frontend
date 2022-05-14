@@ -1,0 +1,37 @@
+.depo__token-list-wrapper {
+  top: 0;
+  z-index: 9;
+  max-width: 233px;
+  user-select: none;
+  .ps__thumb-y {
+    background-color: var(--brand-dark-b-alpha) !important;
+  }
+  .depo__token-list {
+    height: 300px;
+    width: 233px;
+    overflow-y: auto;
+    .depo__token-list-item {
+      &:hover {
+        background-color: var(--brand-dark-b-alpha);
+      }
+    }
+  }
+
+  .depo__token-list-footer {
+    padding: 16px;
+    .ant-pagination {
+      .ant-pagination-item {
+        a {
+          color: #898989;
+        }
+        &.ant-pagination-item-active {
+          background: transparent;
+          border: none;
+          a {
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,165 @@
+.depo__market_table_list {
+  .depo__market_header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .market-title {
+      color: #fff;
+      margin-bottom: 0;
+
+      @media screen and (max-width: 576px) {
+        .market-info {
+          display: none;
+        }
+      }
+    }
+    .market-search-wrapper {
+      flex: 1;
+      text-align: center;
+      .market-search {
+        background: #000;
+        border: none;
+        border-radius: 10px;
+        color: #fff;
+        width: 70% !important;
+        margin: 0 auto;
+      }
+    }
+    .market-select {
+      background-color: #000;
+      border-radius: 10px;
+
+      .market-exchange-name {
+        border-right: 1px solid #fff;
+        padding: 0px 10px;
+      }
+    }
+
+    @media screen and (max-width: 992px) {
+      justify-content: space-between;
+      flex-wrap: wrap;
+
+      .market-search-wrapper {
+        order: 1;
+        width: 100%;
+        flex: unset;
+        .market-search {
+          width: 100% !important;
+          margin-top: 10px;
+        }
+      }
+
+      .market-exchange-name {
+        display: none;
+      }
+    }
+  }
+
+  .ant-table-thead > tr > th {
+    color: white !important;
+    background: #262627 !important;
+    border-bottom: 0.1px solid #363636 !important;
+    text-align: center;
+    padding: 12px 0;
+  }
+
+  .market-list-table {
+    .ant-table-tbody > tr > td {
+      color: white !important;
+      background: #262627 !important;
+      border-bottom: 0.1px solid #363636 !important;
+      text-align: center;
+    }
+
+    a {
+      color: #fff !important;
+    }
+  }
+
+  td.ant-table-column-sort {
+    background: #262627 !important;
+  }
+
+  button {
+    border: none !important;
+    color: white !important;
+    background-color: black !important;
+  }
+
+  .ant-pagination-item {
+    border: none !important;
+    background-color: transparent !important;
+  }
+
+  .ant-pagination-item a {
+    color: white !important;
+  }
+
+  .ant-pagination-item-active a {
+    color: #007aff !important;
+  }
+  .ant-pagination-item-ellipsis,
+  .ant-pagination-item-link-icon {
+    color: rgb(255, 255, 255) !important;
+  }
+
+  .RCM_two_level_table1 .ant-table .ant-table-tbody > tr:hover > td {
+    background: black !important;
+  }
+
+  .ant-table-column-sorter-up.active,
+  .ant-table-column-sorter-down.active {
+    color: #007aff !important;
+  }
+
+  .ant-radio-button-wrapper {
+    background-color: rgba(255, 255, 255, 0.1) !important;
+    color: white !important;
+  }
+  .button-radio-group {
+    margin: 0px 4px 4px 0px !important;
+    border: none !important;
+    border-radius: 10px !important;
+
+    &::before {
+      width: 0px !important;
+    }
+  }
+
+  .ant-radio-button-checked {
+    background-color: black !important;
+    border-radius: 10px !important;
+  }
+
+  .ant-popover-inner {
+    background-color: transparent !important;
+  }
+}
+
+// POPOVER
+.depo__market_popover {
+  .market_popover-content {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(20px);
+    border-radius: 6px;
+  }
+
+  .market_popover-body {
+    color: #ffffff;
+    padding: 16px 0;
+  }
+
+  button {
+    margin: 0 !important;
+    margin-top: 5px !important;
+  }
+
+  .market_popover-market-button {
+    width: 110px;
+    height: 33px;
+    background: #212122;
+    border-radius: 6px;
+    padding: 2px 6px;
+  }
+}

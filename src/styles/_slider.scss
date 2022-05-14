@@ -1,0 +1,103 @@
+.depo__slider {
+  .ant-slider-rail {
+    background-color: var(--brand-lighter-alpha-10) !important;
+    height: 1px !important;
+    top: 5px;
+  }
+  .ant-slider-track {
+    background-color: var(--brand-success) !important;
+    height: 1px;
+    top: 5px;
+  }
+
+  .ant-slider-handle {
+    background-color: var(--brand-success) !important;
+    border: none;
+  }
+  .ant-slider-step {
+    .ant-slider-dot {
+      background-color: var(--brand-secondary);
+      border-color: var(--brand-secondary);
+      &-active {
+        background-color: var(--brand-success) !important;
+        border-color: var(--brand-success) !important;
+      }
+    }
+  }
+  .ant-slider-mark-text {
+    font-size: 12px !important;
+  }
+}
+
+.depo__slider-props {
+  &--Buy {
+    .ant-slider-rail {
+      background-color: #363636 !important;
+      height: 1px !important;
+      top: 5px;
+    }
+
+    .ant-slider-track {
+      background-color: var(--brand-success) !important;
+      height: 1px;
+      top: 5px;
+    }
+
+    .ant-slider-handle {
+      background-color: var(--brand-success) !important;
+      height: 24px;
+      width: 24px;
+      margin-top: -10px;
+      border: none;
+    }
+
+    .ant-slider-mark-text {
+      font-size: 12px !important;
+    }
+
+    .ant-slider-step {
+      .ant-slider-dot {
+        background-color: var(--brand-secondary);
+        border-color: var(--brand-secondary);
+        &-active {
+          background-color: var(--brand-success) !important;
+          border-color: var(--brand-success) !important;
+        }
+      }
+    }
+  }
+
+  &--Sell {
+    .ant-slider-rail {
+      background-color: #363636 !important;
+      height: 1px !important;
+      top: 5px;
+    }
+
+    .ant-slider-track {
+      background-color: var(--brand-danger) !important;
+      height: 1px;
+      top: 5px;
+    }
+
+    .ant-slider-handle {
+      background-color: var(--brand-danger) !important;
+      border: none;
+    }
+
+    .ant-slider-mark-text {
+      font-size: 12px !important;
+    }
+
+    .ant-slider-step {
+      .ant-slider-dot {
+        background-color: var(--brand-secondary);
+        border-color: var(--brand-secondary);
+        &-active {
+          background-color: var(--brand-danger) !important;
+          border-color: var(--brand-danger) !important;
+        }
+      }
+    }
+  }
+}

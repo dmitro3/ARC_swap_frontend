@@ -1,0 +1,271 @@
+.logout {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.account {
+  &__ant-select-selector {
+    background-color: green;
+  }
+}
+.ant-form-item {
+  margin-bottom: 0 !important;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  padding-top: 10.875rem;
+  @media screen and (max-width: 576px) {
+    padding-top: 2.5rem;
+  }
+}
+
+.cardContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  @media screen and (max-width: 576px) {
+    width: 100%;
+  }
+}
+
+.button {
+  color: #fff;
+  background-color: transparent !important;
+  border: none;
+  font-size: 1.25rem;
+  font-weight: bold;
+  line-height: 1.25rem;
+  display: flex;
+  text-align: center;
+
+  @media screen and (max-width: 992px) {
+    font-size: 1rem;
+  }
+}
+
+.card {
+  padding: 0;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  @media screen and (max-width: 992px) {
+    background: transparent;
+  }
+}
+.depo__account-wrapper {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  min-width: 216px;
+  position: absolute;
+  top: 0;
+  margin-left: 8px;
+  left: 100%;
+  border-radius: 10px;
+
+  @media screen and (max-width: 1600px) {
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0;
+  }
+
+  @media screen and (max-width: 992px) {
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-left: 0px;
+  }
+
+  @media screen and (max-width: 576px) {
+    right: -16px;
+    left: -16px;
+    bottom: -24px;
+    top: auto;
+    transform: none;
+    width: calc(100% + 32px);
+  }
+}
+.cardRow {
+  display: flex;
+  align-items: center;
+  p {
+    margin-top: 0.625rem;
+    color: #fff;
+    font-family: Metropolis;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 12px;
+    flex-wrap: wrap;
+    @media screen and (max-width: 992px) {
+      line-height: 20px;
+      width: 100%;
+    }
+  }
+  img {
+    width: 65px;
+    @media screen and (max-width: 576px) {
+      width: 40px;
+    }
+  }
+  @media screen and (max-width: 576px) {
+    width: 100%;
+  }
+}
+
+.cardExchange {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+
+  .buttonPlus {
+    display: flex;
+    text-align: right;
+    justify-content: space-between;
+    padding: 0;
+    font-size: 1.625rem;
+  }
+  p {
+    padding-top: 0;
+    font-size: 20px;
+    color: #fff;
+  }
+  @media screen and (max-width: 992px) {
+    background: transparent;
+  }
+}
+
+.select {
+  width: 300px;
+  text-align: left;
+  @media screen and (max-width: 576px) {
+    width: 100% !important;
+    // height: 48px !important;
+    font-size: 14px !important;
+    background: #2c2c2c !important;
+  }
+}
+
+.selectOptions {
+  color: #fff !important;
+  height: 48px !important;
+
+  :hover {
+    color: var(--brand-success) !important;
+  }
+}
+
+::placeholder {
+  color: #888889;
+  font-size: 12px !important;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 12px;
+}
+
+.input {
+  width: 300px !important;
+  border-radius: 10px !important;
+  background-color: var(--brand-dark) !important;
+  border: none !important;
+  color: #fff !important;
+  @media screen and (max-width: 576px) {
+    width: 100% !important;
+    height: 48px !important;
+    background: #2c2c2c !important;
+  }
+}
+
+.rowTooltip {
+  display: flex;
+  margin-bottom: -5px;
+}
+
+.extraField {
+  color: #fff !important;
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 12px;
+  margin-left: 40px;
+  margin-right: 5px;
+  margin-bottom: -10px;
+  @media screen and (max-width: 576px) {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 0.5rem;
+  }
+}
+
+.popOverContent {
+  border-radius: 10px;
+  @media screen and (max-width: 576px) {
+    background-color: #1f1f1f;
+  }
+}
+
+.depo__logout-icon {
+  color: white;
+  cursor: pointer;
+  font-size: 1em;
+  position: fixed;
+  right: 85px;
+}
+
+.depo__account-address {
+  color: white;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+.depo__btn {
+  span {
+    color: #ffffff;
+  }
+  width: 121px !important;
+  height: 33px !important;
+  background: #007aff !important;
+  border-radius: 10px !important;
+  font-family: Montserrat !important;
+  font-style: normal !important;
+  font-weight: 800 !important;
+  font-size: 12px !important;
+  line-height: 12px !important;
+  @media screen and (max-width: 576px) {
+    width: 100% !important;
+    border-radius: 7px !important;
+    height: 52px !important;
+    font-family: Montserrat !important;
+    font-style: normal !important;
+    font-weight: bold !important;
+    font-size: 14px !important;
+    line-height: 24px !important;
+  }
+}
+.depo__btnDanger {
+  width: 121px !important;
+  height: 33px !important;
+  background: #f12d28 !important;
+  border-radius: 10px !important;
+  font-family: Montserrat !important;
+  font-style: normal !important;
+  font-weight: 800 !important;
+  font-size: 12px !important;
+  line-height: 12px !important;
+  @media screen and (max-width: 576px) {
+    width: 100% !important;
+    border-radius: 7px !important;
+    height: 52px !important;
+    font-family: Montserrat !important;
+    font-style: normal !important;
+    font-weight: bold !important;
+    font-size: 14px !important;
+    line-height: 24px !important;
+  }
+}

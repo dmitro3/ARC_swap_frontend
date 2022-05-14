@@ -1,0 +1,21 @@
+.depo__loading-icon {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    animation: fade-in 250ms forwards;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-size: 5em;
+    z-index: 3;
+    color: white;
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

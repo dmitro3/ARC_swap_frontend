@@ -1,0 +1,24 @@
+.depo__ {
+  &modal-selector {
+    .ant-modal-content {
+      background-color: transparent !important;
+      box-shadow: none !important;
+      .ant-modal-footer {
+        display: none !important;
+        border: none !important;
+      }
+    }
+    .ant-modal-close-x {
+      display: none;
+    }
+    &-content {
+      border: 1px solid black;
+    }
+    &-item {
+      border: 1px solid #007aff;
+    }
+    &-wrapper {
+      border: 1px solid blue;
+    }
+  }
+}

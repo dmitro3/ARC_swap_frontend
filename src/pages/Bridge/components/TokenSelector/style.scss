@@ -1,0 +1,44 @@
+.depo__bridge-token-selector {
+  height: 100%;
+  .ant-select {
+    background-color: #1e1e1e;
+    width: 120px;
+  }
+  .selectOptions {
+    color: var(--secondary) !important;
+    :hover {
+      color: var(--brand-success) !important;
+    }
+  }
+  .ant-select-customize-input {
+    height: 35px;
+    overflow: hidden;
+  }
+  .ant-select-selector {
+    position: relative;
+    padding-left: 4px;
+    .ant-select-selection-item {
+      position: absolute !important;
+      top: 2px;
+      img {
+        margin-bottom: 2px;
+        border-radius: 10px;
+      }
+    }
+  }
+}
+
+.depo__bridge-token-selector-dropdown {
+  background: #1e1e1e !important;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.12),
+    0px 1px 3px rgba(0, 0, 0, 0.2);
+  border-radius: 10px !important;
+  .ant-select-item-option-selected {
+    background-color: inherit !important;
+    color: var(--brand-success) !important;
+  }
+  img {
+    margin-bottom: 2px;
+    border-radius: 10px;
+  }
+}

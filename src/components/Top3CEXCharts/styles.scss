@@ -1,0 +1,84 @@
+.chart-container {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 7px;
+  margin-top: 30px;
+  padding: 20px 0;
+}
+
+.cex-title {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 20px;
+  color: #ffffff;
+}
+
+.cex-volume {
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 12px;
+
+  color: #898989;
+}
+
+.coins-select-container {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+
+  .switch-icon {
+    padding: 10px;
+    color: white;
+    font-size: 24px;
+  }
+
+  @media screen and (max-width: 576px) {
+    flex-direction: column;
+
+    .ant-select {
+      width: 100%;
+    }
+  }
+}
+
+.select {
+  width: 200px;
+}
+
+.selectOptions {
+  color: #fff !important;
+  :hover {
+    color: var(--brand-success) !important;
+  }
+}
+
+.chart-container-wraper {
+  height: 450px;
+  background: #070708;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+
+  div:last-child {
+    flex: 1;
+    div:first-child {
+      height: 100%;
+    }
+    div:nth-child(2) {
+      display: none;
+    }
+  }
+
+  @media screen and (max-width: 576px) {
+    height: 300px;
+  }
+}
+
+.partner-wrapper {
+  padding: 4px 18px;
+  margin-left: 8px;
+  color: #f12d28;
+  font-size: 10px;
+  font-weight: 600;
+  background: #feefef;
+  border-radius: 16px;
+}

@@ -1,0 +1,26 @@
+export default {
+  masterChef: {
+    1: '0x1CA1a5937D73f74f89764C3835D6796e4E1c8314',
+    4: '0x17c8aef2E0B95E811fe27064870E606D284b814f',
+  },
+  masterChefV2: {
+    1: '0xcB54762349709374c3Fc9763155165C5fe90E0eb',
+    4: '0x498DFCd600993ccd0e8eb8EA92bedf04C2648A8E',
+  },
+  multiCall: {
+    1: '0xeefBa1e63905eF1D7ACbA5a8513c70307C1cE441',
+    4: '0x42Ad527de7d4e9d9d011aC45B31D8551f8Fe9821',
+  },
+  depoToken: {
+    1: '0xa5def515cfd373d17830e7c1de1639cb3530a112',
+    4: '0xd597953a8bC09cE02B5652F0A8a774807601a7bD',
+  },
+  arcMasterChef: {
+    1: '0x1575F4b5364dDBd6c9C77D1fE603E2d76432aA6a',
+    4: '',
+  },
+  arcToken: {
+    1: '0xC82E3dB60A52CF7529253b4eC688f631aad9e7c2',
+    4: '0xd597953a8bC09cE02B5652F0A8a774807601a7bD',
+  },
+};

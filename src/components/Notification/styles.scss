@@ -1,0 +1,21 @@
+.notification {
+  background-color: #2C2C2C !important;
+  border-radius: 10px !important;
+
+  .ant-notification-notice-message {
+    font-weight: bold;
+    line-height: 29px;
+    color: #FFF !important;
+  }
+
+  .ant-notification-notice-description {
+    color: #FFF !important;
+    font-weight: normal;
+    font-size: 14px !important;
+    line-height: 175.47%;
+  }
+
+  .ant-notification-notice-close {
+    color: #FFF !important;
+  }
+}

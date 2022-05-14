@@ -1,0 +1,30 @@
+.depo__tabs {
+    .ant-tabs- {
+        &tab {
+            &:not(:first-of-type) {
+                margin-left: 5px;
+            }
+            color: var(--brand-secondary);
+            border-radius: 8px 8px 0 0;
+            padding: 10px 16px;
+            background-color: var(--brand-lighter-alpha);
+            &-active {
+                background-color: var(--brand-lighter-alpha-10);
+            }
+        }
+        &nav {
+            margin-bottom: 0;
+        }
+        &nav,
+        &nav-wrap {
+            &::before {
+                display: none !important;
+            }
+        }
+        &nav-list {
+            .ant-tabs-ink-bar {
+                display: none !important;
+            }
+        }
+    }
+}

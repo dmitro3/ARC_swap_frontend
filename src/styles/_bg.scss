@@ -1,0 +1,91 @@
+/** BG **/
+.bg-light-alpha {
+  background-color: var(--brand-lighter-alpha) !important;
+  color: white;
+}
+.bg-light-alpha-10 {
+  background-color: var(--brand-lighter-alpha-10) !important;
+  color: white;
+}
+.bg-light-alpha-20 {
+  background-color: var(--brand-lighter-alpha-20) !important;
+  color: white;
+}
+.bg-light-alpha-30 {
+  background-color: var(--brand-lighter-alpha-30) !important;
+  color: white;
+}
+.bg-lightgrey {
+  background-color: #212122 !important;
+  color: white;
+}
+.bg-success {
+  background-color: var(--brand-success) !important;
+  color: white !important;
+}
+
+.bg-swap-success {
+  background-color: var(--brand-swap-success) !important;
+  color: white !important;
+}
+
+.bg-swap-secondary {
+  background-color: var(--brand-swap-secondary) !important;
+  color: white;
+}
+
+.bg-danger {
+  background-color: var(--brand-danger) !important;
+  color: white !important;
+}
+
+.bg-secondary {
+  background-color: var(--brand-secondary) !important;
+  color: white;
+}
+.bg-pool-secondary {
+  background-color: var(--brand-swap-secondary) !important;
+  color: white;
+}
+.bg-info {
+  background-color: var(--brand-info) !important;
+  color: white;
+}
+
+.bg-dark {
+  background-color: var(--brand-dark) !important;
+  color: white;
+}
+.bg-dark-alpha {
+  background-color: var(--brand-dark-alpha) !important;
+  color: white;
+}
+.bg-darker-alpha {
+  background-color: var(--brand-darker-alpha) !important;
+  color: white;
+}
+
+.bg-transparent {
+  background: transparent !important;
+}
+
+.bg-primary-gradient {
+  background: linear-gradient(90deg, #007aff 0%, #78e2e2 50%, #007aff 100%);
+
+  &:hover {
+    background: linear-gradient(90deg, #007aff 0%, #78e2e2 50%, #007aff 100%);
+  }
+}
+
+.bg-dark-gradient {
+  background: linear-gradient(
+    162.94deg,
+    #121212 75%,
+    rgba(18, 18, 18, 0.7) 96.48%
+  );
+}
+
+.bg-darkgrey {
+  background-color: #1e1e1e !important;
+  color: white;
+}

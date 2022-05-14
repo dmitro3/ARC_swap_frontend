@@ -1,0 +1,100 @@
+.orderBook {
+  padding: 15px 18px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+
+  p {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  .orderBookHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    .select {
+      width: 107px;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 12px !important;
+    }
+
+    .selectOptions {
+      color: #fff !important;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 12px !important;
+      :hover {
+        color: var(--brand-success) !important;
+      }
+    }
+  }
+}
+
+.orderBookContent {
+  .ant-table-thead > tr > th {
+    background: none !important;
+    color: #898989 !important;
+    font-size: 12px !important;
+    padding-bottom: 7px !important;
+    border-bottom: 1px solid #363636 !important;
+  }
+
+  .ant-table-tbody > tr > td {
+    border: none !important;
+    z-index: 1;
+  }
+
+  .ant-table {
+    background: none !important;
+    color: #fff !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    font-size: 12px !important;
+    line-height: 10px !important;
+  }
+}
+
+.totalValueOrderBook {
+  padding: 49px 18px 0 0;
+}
+
+.__column--bids,
+.__column--asks {
+  .rt-tr-bar {
+    background-color: #491e21 !important;
+    right: 0;
+    left: auto;
+    font-size: 0.6875rem;
+  }
+
+  .price {
+    color: #f34747 !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    font-size: 12px !important;
+    line-height: 10px !important;
+  }
+
+  .background-volume {
+    position: absolute !important;
+    z-index: 0 !important;
+    transition: all 0.3s ease-in-out;
+  }
+}
+
+.__column--bids {
+  .rt-tr-bar {
+    background-color: #0e3b14 !important;
+  }
+
+  .price {
+    color: #007aff !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    font-size: 12px !important;
+    line-height: 10px !important;
+  }
+}

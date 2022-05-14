@@ -1,0 +1,31 @@
+.depo__ {
+  &selector-text {
+    flex: 1;
+    margin-right: 5px;
+  }
+  &token-selector {
+    max-width: 120px;
+    .token-logo {
+      height: 30px;
+      width: 30px;
+      border-radius: 15px;
+      position: relative;
+      &.fill-background {
+        background-color: var(--brand-success);
+        &::after {
+          content: 'DPO';
+          font-size: 9px;
+          color: white;
+          position: absolute;
+          top: 9px;
+          left: 5px;
+          z-index: 0;
+        }
+      }
+      img {
+        position: relative;
+        z-index: 1;
+      }
+    }
+  }
+}

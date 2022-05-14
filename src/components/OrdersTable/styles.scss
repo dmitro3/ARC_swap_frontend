@@ -1,0 +1,50 @@
+.depo__orders_table {
+  .ant-table-thead > tr > th {
+    color: white !important;
+    background: #262627 !important;
+
+    border-bottom: 0.1px solid #363636 !important;
+  }
+
+  button {
+    border: none !important;
+    color: white !important;
+    background-color: black !important;
+  }
+
+  .ant-pagination-item {
+    border: none !important;
+    background-color: transparent !important;
+  }
+
+  .ant-pagination-item a {
+    color: white !important;
+  }
+
+  .ant-pagination-item-active a {
+    color: var(--brand-success) !important;
+  }
+
+  .RCM_two_level_table1 {
+    .ant-table-tbody > tr > td {
+      color: white !important;
+      background: #262627 !important;
+      border-bottom: 0.1px solid #363636 !important;
+    }
+  }
+
+  .RCM_two_level_table1 .ant-table .ant-table-tbody > tr:hover > td {
+    background: black !important;
+  }
+
+  .ant-table-column-sorter-up.active,
+  .ant-table-column-sorter-down.active {
+    color: var(--brand-success) !important;
+  }
+
+  .perfect_content {
+    .ps__rail-x {
+      background-color: transparent !important;
+    }
+  }
+}

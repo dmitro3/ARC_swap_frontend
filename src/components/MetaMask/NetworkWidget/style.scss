@@ -1,0 +1,36 @@
+.depo__network-widget {
+    height: 100%;
+    .selectOptions {
+        color: var(--secondary) !important;
+        :hover {
+            color: var(--brand-success) !important;
+        }
+    }
+    .ant-select-customize-input {
+        height: 35px;
+        overflow: hidden;
+    }
+    .ant-select-selector {
+        position: relative;
+        .ant-select-selection-item {
+            position: absolute !important;
+            left: 15px;
+            top: 2px;
+            img {
+                margin-bottom: 2px;
+                border-radius: 10px;
+            }
+        }
+    }
+}
+
+.depo__dropdown-selector {
+    .ant-select-item-option-selected {
+        background-color: inherit !important;
+        color: var(--brand-success) !important;
+    }
+    img {
+        margin-bottom: 2px;
+        border-radius: 10px;
+    }
+}

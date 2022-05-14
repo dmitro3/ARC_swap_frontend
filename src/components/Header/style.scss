@@ -1,0 +1,52 @@
+.depo__headers {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+  font-weight: lighter !important;
+
+  .ant-btn {
+    background: none !important;
+  }
+
+  .depo_balance_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-left: auto;
+    flex-wrap: wrap;
+    .gas-fee {
+      height: 35px;
+      display: flex;
+      align-items: center;
+      background: #212121 !important;
+      border-radius: 18px;
+      margin-right: 10px;
+      color: white;
+      padding: 0 10px;
+    }
+  }
+  .metamask {
+    background: #212121 !important;
+    color: #fff !important;
+    height: 35px;
+    border-radius: 18px;
+  }
+  .metamask-balance {
+    min-width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .btn-metamask-onboarding {
+    font-size: 14px !important;
+    background: #383838 !important;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .depo__headers .depo_balance_wrapper {
+    flex-wrap: wrap-reverse;
+    .gas-fee {
+      margin-right: 0;
+    }
+  }
+}
